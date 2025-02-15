@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khushal | Password</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/Linkedin Profile .jpg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!--Main Card or Container-->
+    <div class="container">
+        <h1>Password Generator</h1>
+
+        <!--Password Display and Copy Btn Section-->
+        <div class="display-container">
+            <!--Password Display-->
+            <input readonly placeholder="Password" class="display" data-passwordDisplay>
+
+            <!--Copy Btn-->
+            <button class="copyBtn" data-copy>
+                <span class="tooltip" data-copyMsg></span>
+                <img src="./assets/copy.svg" alt="copy" width="23" height="23">
+            </button>
+        </div>
+
+        <!--Password length,inputs,srength and generate btn -->
+        <div class="input-container">
+            <!--Pasword Length Display-->
+            <div class="length-container">
+                <p>Password Length</p>
+                <p data-lengthnumber>10</p>
+            </div>
+
+            <!--Slider-->
+            <input type="range" min="1" max="20" step="1" class="slider" data-lengthSlider>
+        
+            <!--Checkboxes-->
+            <!--Uppercase-->
+            <div class="check">
+                <input type="checkbox" id="uppercase">
+                <label for="uppercase">Includes Uppercase letters</label>
+            </div>
+
+            <!--Lowercase-->
+            <div class="check">
+                <input type="checkbox" id="lowercase">
+                <label for="uppercase">Includes Lowercase letters</label>
+            </div>
+
+            <!--Numbers-->
+            <div class="check">
+                <input type="checkbox" id="numbers">
+                <label for="uppercase">Includes Numbers</label>
+            </div>
+
+            <!--Symbols-->
+            <div class="check">
+                <input type="checkbox" id="symbols">
+                <label for="uppercase">Includes Symbols</label>
+            </div>
+
+            <!--Strength Section-->
+            <div class="strength-container">
+                <p>Strength</p>
+                <div class="indicator" data-indicator></div>
+            </div>
+
+            <!--Generate Password Btn-->
+            <button class="generateButton">Generate Password</button>
+        </div> 
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
