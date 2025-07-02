@@ -13,7 +13,7 @@ A techie, modern, and secure password generator built with HTML, CSS, and JavaSc
 
 ## Live Demo
 
-Check out the live version here: [CipherSmith Live Demo](https://bairariyakhushal.github.io/Password-Generator/)
+Check out the live version here: [CipherSmith Live Demo](https://bairariyakhushal.github.io/CipherSmith/)
 
 ## Technologies Used
 
