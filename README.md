@@ -1,6 +1,6 @@
-# Password Generator 🔐
+# CipherSmith 🔐
 
-A secure and customizable password generator built with HTML, CSS, and JavaScript. This web application helps users create strong, random passwords for enhanced security.
+A techie, modern, and secure password generator built with HTML, CSS, and JavaScript. CipherSmith helps you create strong, random passwords with advanced customization for enhanced digital security.
 
 ## Features
 
@@ -9,7 +9,11 @@ A secure and customizable password generator built with HTML, CSS, and JavaScrip
 - Copy generated password to clipboard with one click
 - Responsive design for all devices
 - Password strength indicator
-- User-friendly interface
+- Sleek, tech-inspired user interface
+
+## Live Demo
+
+Check out the live version here: [CipherSmith Live Demo](https://bairariyakhushal.github.io/Password-Generator/)
 
 ## Technologies Used
 
@@ -21,12 +25,12 @@ A secure and customizable password generator built with HTML, CSS, and JavaScrip
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/password-generator.git
+git clone https://github.com/yourusername/ciphersmith.git
 ```
 
 2. Navigate to the project directory
 ```bash
-cd password-generator
+cd ciphersmith
 ```
 
 3. Open the project
@@ -69,8 +73,8 @@ git push origin feature/YourFeature
 
 ## Contact
 
-- GitHub: [https://github.com/bairariyakhushal](https://github.com/yourusername)
-- LinkedIn: [lhttps://www.linkedin.com/in/khushal-bairariya-581864280/](https://linkedin.com/in/yourusername)
+- GitHub: [bairariyakhushal](https://github.com/yourusername)
+- LinkedIn: [Khushal Bairariya](https://linkedin.com/in/yourusername)
 - Email: bairariyakhushal@gmail.com
 
 ##
